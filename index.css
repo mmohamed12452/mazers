@@ -1,0 +1,40 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+.rectangle
+{
+    width:230px;
+    background-color:aqua;
+    height:630px;
+}
+.profiles
+{
+    margin-left:260px;
+    margin-top:-600px;
+}
+.square
+{
+    height:50px;
+    width:50px;
+    background-color: purple;
+}
+.square
+{
+    text-align: center;
+}
+.card
+{
+    width:600px;
+}
+.profiling
+{
+    margin-left:80px;
+    margin-top:-50px;
+}
+.percent
+{
+    margin-left:80px;
+    margin-top:-10px;
+}
