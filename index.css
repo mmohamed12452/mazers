@@ -3,38 +3,48 @@
     margin:0px;
     padding:0px;
 }
-.rectangle
+:root
 {
-    width:230px;
-    background-color:aqua;
-    height:630px;
+    --blue:#0000CD;
+    --white:#ffffff;
+    --marian-blue:#E1EBEE;
 }
-.profiles
+body
 {
-    margin-left:260px;
-    margin-top:-600px;
+    background-color: var(--marian-blue) !important;
 }
-.square
+.row
 {
-    height:50px;
-    width:50px;
-    background-color: purple;
+    color:var(--blue);
 }
-.square
+.first-black-box
 {
-    text-align: center;
+    background-color: var(--white);
 }
-.card
+.listing p
 {
-    width:600px;
+    margin-top:10px;
+    font-size: 1.2em;
+    padding:5px;
+    border-radius:12px;
+
 }
-.profiling
+.listing p:hover
 {
-    margin-left:80px;
+   background-color:var(--blue);
+   color:var(--white);
+}
+ul
+{
+    list-style-type: none;
+}
+.paragraphing
+{
+    margin-left:120px;
     margin-top:-50px;
 }
-.percent
+.viewers
 {
-    margin-left:80px;
+    margin-left:120px;
     margin-top:-10px;
 }
